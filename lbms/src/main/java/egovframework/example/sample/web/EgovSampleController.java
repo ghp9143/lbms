@@ -87,10 +87,25 @@ public class EgovSampleController {
 	@Controller
 	public class MainRegisterController {
 		
-		@RequestMapping(value = "/register.do")
+		@RequestMapping(value = "/main/register.do")
 		public String mainRegisterPage() {
 			
 			return "main/register";
+		}
+	}
+	
+	/**
+	 * LBMS 상세 페이지를 조회한다.
+	 * author 박건희
+	 * date 2024.02.10
+	 */
+	@Controller
+	public class MainDetailController {
+		
+		@RequestMapping(value = "/main/detail.do")
+		public String mainDetailPage() {
+			
+			return "main/detail";
 		}
 	}
 	

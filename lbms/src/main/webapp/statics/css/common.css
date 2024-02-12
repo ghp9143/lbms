@@ -26,6 +26,9 @@
 .input-common.expand {
 	width: 40rem;
 }
+.input-common.wide {
+	width: 100%;
+}
 
 .table-wrap {
 	width: 100%;
@@ -63,6 +66,31 @@
 .table-description span.count {
 	color: #0D578F;
 	font-weight: 600;
+}
+
+.form-common table {
+	width: 100%;
+}
+.form-common table thead tr th {
+	background-color: #787878;
+	color: #fff;
+	font-weight: 600;
+	text-align: left;
+}
+.form-common table th, .form-common table td {
+	padding: 1rem;
+	border: 1px solid #ededed;
+} 
+.form-common table tbody th {
+	background-color: #f9f9f9;
+}
+.form-common .button-wrap {
+	text-align: center;
+	margin-top: 4rem;
+}
+
+.form-common .table-wrap {
+	margin-top: 6rem;
 }
 
 #pagination {
