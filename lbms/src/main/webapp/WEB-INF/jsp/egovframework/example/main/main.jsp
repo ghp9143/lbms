@@ -41,7 +41,7 @@
 				<div class="table-wrap">
 					<div class="table-description">
 						<p>총 <span class="count">142</span>건의 검색 결과가 있습니다.</p>
-						<a href="" class="button-common blue"><span>등록</span></a>
+						<a href="<c:url value='/main/register.do'/>" class="button-common blue"><span>등록</span></a>
 					</div>
 					<table class="table-common">
 						<colgroup>
@@ -63,7 +63,7 @@
 							</tr>
 						</thead>
 						<tbody>
-							<tr>
+							<tr onClick="location.href='<c:url value='/main/detail.do'/>'">
 								<td>1</td>
 								<td>책1입니다.</td>
 								<td>대명</td>
@@ -71,7 +71,7 @@
 								<td>2020.02.05</td>
 								<td>대여중</td>
 							</tr>
-							<tr>
+							<tr onClick="location.href='<c:url value='/main/detail.do'/>'">
 								<td>2</td>
 								<td>책1입니다.</td>
 								<td>대명</td>
@@ -79,7 +79,7 @@
 								<td>2020.02.05</td>
 								<td>대여중</td>
 							</tr>
-							<tr>
+							<tr onClick="location.href='<c:url value='/main/detail.do'/>'">
 								<td>3</td>
 								<td>책1입니다.</td>
 								<td>대명</td>
@@ -87,7 +87,7 @@
 								<td>2020.02.05</td>
 								<td>대여중</td>
 							</tr>
-							<tr>
+							<tr onClick="location.href='<c:url value='/main/detail.do'/>'">
 								<td>4</td>
 								<td>책1입니다.</td>
 								<td>대명</td>
@@ -95,7 +95,7 @@
 								<td>2020.02.05</td>
 								<td>대여중</td>
 							</tr>
-							<tr>
+							<tr onClick="location.href='<c:url value='/main/detail.do'/>'">
 								<td>5</td>
 								<td>책1입니다.</td>
 								<td>대명</td>
@@ -103,7 +103,7 @@
 								<td>2020.02.05</td>
 								<td>대여중</td>
 							</tr>
-							<tr>
+							<tr onClick="location.href='<c:url value='/main/detail.do'/>'">
 								<td>6</td>
 								<td>책1입니다.</td>
 								<td>대명</td>
@@ -111,7 +111,7 @@
 								<td>2020.02.05</td>
 								<td>대여중</td>
 							</tr>
-							<tr>
+							<tr onClick="location.href='<c:url value='/main/detail.do'/>'">
 								<td>7</td>
 								<td>책1입니다.</td>
 								<td>대명</td>
@@ -119,7 +119,7 @@
 								<td>2020.02.05</td>
 								<td>대여중</td>
 							</tr>
-							<tr>
+							<tr onClick="location.href='<c:url value='/main/detail.do'/>'">
 								<td>8</td>
 								<td>책1입니다.</td>
 								<td>대명</td>
@@ -127,7 +127,7 @@
 								<td>2020.02.05</td>
 								<td>대여중</td>
 							</tr>
-							<tr>
+							<tr onClick="location.href='<c:url value='/main/detail.do'/>'">
 								<td>9</td>
 								<td>책1입니다.</td>
 								<td>대명</td>
@@ -135,7 +135,7 @@
 								<td>2020.02.05</td>
 								<td>대여중</td>
 							</tr>
-							<tr>
+							<tr onClick="location.href='<c:url value='/main/detail.do'/>'">
 								<td>10</td>
 								<td>책1입니다.</td>
 								<td>대명</td>
