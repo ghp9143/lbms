@@ -1,0 +1,96 @@
+.button-common {
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	border: none;
+	background-color: #bbb;
+	color: #fff;
+	border-radius: 0.5rem;
+	vertical-align: middle;
+}
+
+.button-common.blue {
+	background-color: #0D578F;
+}
+
+.input-common {
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	border: 1px solid #ddd;
+	border-radius: 0.5rem;
+	width: 20rem;
+	height: 32px;
+	line-height: 32px;
+	vertical-align: middle;
+}
+
+.input-common.expand {
+	width: 40rem;
+}
+
+.table-wrap {
+	width: 100%;
+}
+
+.table-common {
+	display: table;
+	width: 100%;
+	border: 1px solid #ededed;
+}
+
+.table-common thead tr th {
+	background-color: #ededed;
+	padding: 0.5rem;
+	border-bottom: 1px solid #ededed;
+}
+
+.table-common tbody tr td {
+	padding: 0.5rem;
+	text-align: center;
+	border-bottom: 1px solid #ededed;
+}
+
+.table-common tbody tr:hover {
+	background-color: #f9f9f9;
+	cursor: pointer;
+}
+
+.table-description {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.5rem;
+}
+
+.table-description span.count {
+	color: #0D578F;
+	font-weight: 600;
+}
+
+#pagination {
+	margin-top: 2rem;
+}
+
+#pagination ul {
+	display: flex;
+	justify-content: center;
+}
+
+#pagination ul li {
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	margin-right: 0.25rem;
+	cursor: pointer;
+}
+
+#pagination ul li.active {
+	background-color: #0D578F;
+	color: #fff;
+}
+
+#pagination ul li.active:hover {
+	background-color: #0D578F;
+}
+
+#pagination ul li:hover {
+	background-color: #1586DC;
+	color: #fff;
+}

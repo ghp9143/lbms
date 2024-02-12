@@ -17,15 +17,10 @@ package egovframework.example.sample.web;
 
 import java.util.List;
 
-import egovframework.example.sample.service.EgovSampleService;
-import egovframework.example.sample.service.SampleDefaultVO;
-import egovframework.example.sample.service.SampleVO;
+import javax.annotation.Resource;
 
 import org.egovframe.rte.fdl.property.EgovPropertyService;
 import org.egovframe.rte.ptl.mvc.tags.ui.pagination.PaginationInfo;
-
-import javax.annotation.Resource;
-
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
@@ -36,6 +31,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.support.SessionStatus;
 import org.springmodules.validation.commons.DefaultBeanValidator;
+
+import egovframework.example.sample.service.EgovSampleService;
+import egovframework.example.sample.service.SampleDefaultVO;
+import egovframework.example.sample.service.SampleVO;
 
 /**
  * @Class Name : EgovSampleController.java
@@ -64,6 +63,37 @@ public class EgovSampleController {
 	/** EgovPropertyService */
 	@Resource(name = "propertiesService")
 	protected EgovPropertyService propertiesService;
+	
+	/**
+	 * LBMS 메인 페이지를 조회한다.
+	 * author 박건희
+	 * date 2024.02.10
+	 */
+	@Controller
+	public class MainController {
+		
+		@RequestMapping(value = "/main.do")
+		public String mainPage() {
+			
+			return "main/main";
+		}
+	}
+	
+	/**
+	 * LBMS 등록 페이지를 조회한다.
+	 * author 박건희
+	 * date 2024.02.10
+	 */
+	@Controller
+	public class MainRegisterController {
+		
+		@RequestMapping(value = "/register.do")
+		public String mainRegisterPage() {
+			
+			return "main/register";
+		}
+	}
+	
 
 	/** Validator */
 	@Resource(name = "beanValidator")
