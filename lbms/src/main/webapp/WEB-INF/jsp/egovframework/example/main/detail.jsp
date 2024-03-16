@@ -50,37 +50,37 @@
 								<tr>	
 									<th>도서명</th>
 									<td>
-										<span>나의 라임오렌지나무</span>										
+										<span>${result.bookName}</span>										
 									</td>
 								</tr>
 								<tr>	
 									<th>저자명</th>
 									<td>
-										박강현										
+										${result.writer}										
 									</td>
 								</tr>
 								<tr>	
 									<th>출판사명</th>
 									<td>
-										강현								
+										${result.publisherName}								
 									</td>
 								</tr>
 								<tr>	
 									<th>출판일</th>
 									<td>
-										2024년 2월 12일							
+										${result.publishDate}							
 									</td>
 								</tr>
 								<tr>	
 									<th>가격</th>
 									<td>
-										2,000,000 원										
+										${result.amt}										
 									</td>
 								</tr>
 								<tr>	
 									<th>등록일</th>
 									<td>
-										2024년 2월 14일							
+										${result.regDate}							
 									</td>
 								</tr>
 							</tbody>
